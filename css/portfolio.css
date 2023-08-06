@@ -1,0 +1,12 @@
+.portfolio {
+  margin-top: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.wip {
+  width: 500px;
+}

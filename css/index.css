@@ -1,0 +1,101 @@
+/*welcome section*/
+.section-welcome {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.section-welcome a{
+  background-color: var(--accent-color);
+  padding: 5px 10px;
+  border-radius: 2px;
+  color: white;
+}
+
+.section-welcome a:hover{
+  opacity: 50%;
+}
+
+.section-welcome-main {
+  margin-left: 100px;
+  width: 1000px;
+  padding: 2em;
+}
+
+.section-welcome-quotes {
+  margin-left: 100px;
+  width: 600px;
+  padding: 2em;
+  align-self: flex-end;
+}
+
+.section-welcome-quotes p{
+  border-left: 4px solid;
+  border-color: var(--accent-color);
+  padding-left: 20px;
+  margin: 40px 0;
+}
+
+.section-welcome-quotes p:nth-child(2) {
+  margin-left: 100px;
+}
+
+/*Main Section*/
+.main-profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-profile-text {
+  margin-left: 100px;
+  width: 1000px;
+  padding: 2em;
+}
+
+
+.main-profile-img {
+  margin-left: 100px;
+  width: 600px;
+  padding: 2em;
+  align-self: flex-end;
+}
+
+.main-profile-img img {
+  height: auto;
+  max-width: 535px;
+  border-radius: 10px;
+}
+
+/*Interests*/
+.section-interests {
+  text-align: center;
+  margin-top: 100px;
+  
+}
+
+.section-interests .text {
+  color: white;
+  line-height: 1.6;
+}
+
+.section-interests-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 100px;
+  column-gap: 40px;
+}
+
+.info-bar {
+  height: fit-content;
+  width: 400px;
+}
+
+.info-bar img {
+  max-width: 150px;
+}
+
